@@ -3,7 +3,7 @@
  */
  
  
-public class Frame {
+public class Worker {
     protected String surname;
     protected String name;
     protected String workshop;
@@ -36,7 +36,7 @@ public class Frame {
     }
 
     public String read() {
-        String result = "About Frame \nSurname: " + this.surname + "\nName: " + this.name + "\nWorkshop: " + this.workshop + "\nCategory: " + this.category + "\nRoomCabinet: " + this.roomCabinet + "\nHomeAddress: " + this.homeAddress;
+        String result = "About Worker \nSurname: " + this.surname + "\nName: " + this.name + "\nWorkshop: " + this.workshop + "\nCategory: " + this.category + "\nRoomCabinet: " + this.roomCabinet + "\nHomeAddress: " + this.homeAddress;
         return result;
     }
 
