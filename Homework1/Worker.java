@@ -27,7 +27,7 @@ public class Worker {
         this.workshop = workshop;
     }
 
-    public String getWorkshopWorkshop() {return workshop;}
+    public String getWorkshop() {return workshop;}
 
     public void setCategory(int category) {
         this.category = category;
