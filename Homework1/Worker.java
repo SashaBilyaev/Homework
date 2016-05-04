@@ -15,7 +15,7 @@ public class Worker {
         this.surname = surname;
     }
 
-    public String getSurnameame() {return surname;}
+    public String getSurname() {return surname;}
 
     public void setName(String name) {
         this.name = name;
