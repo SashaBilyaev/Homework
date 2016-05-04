@@ -17,13 +17,19 @@ public class University {
         this.name = name;
     }
 
+    public String getName() {return name;}
+
     public void setAddress(String address) {
         this.address = address;
     }
 
+    public String getAddress() {return address;}
+
     public void setgiveSalary(int giveSalary) {
         this.giveSalary = giveSalary;
     }
+
+    public int getGiveSalary() {return giveSalary;}
 
     public void addWorker(Worker worker) {
         this.workersArray[this.number] = worker;
