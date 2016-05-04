@@ -4,15 +4,16 @@
  
 public class Main {
     public static void main(String[] args) {
-        Frame frame = new Worker ();
+        Worker worker = new Worker ();
 
-        frame.setSurname("Bilyaev");
-        frame.setName("Sasha");
-        frame.setWorkshop("Metallurgy");
-        frame.setCategory(2);
-        frame.setRoomCabinet(17);
-        frame.setHomeAddress("Cherkasy");
+        worker.setSurname("Bilyaev");
+        worker.setName("Sasha");
+        worker.setWorkshop("Metallurgy");
+        worker.setCategory(2);
+        worker.setRoomCabinet(17);
+        worker.setHomeAddress("Cherkasy");
 
-        System.out.println(frame.read());
+        System.out.println(worker.read());
     }
 }
+
